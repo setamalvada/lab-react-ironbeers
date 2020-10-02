@@ -9,6 +9,9 @@ const Home = (props) => (
     <Link to={`/beers/random`} class="myButton">
       RandomBeer
     </Link>
+    <Link to={`/new_beer`} class="myButton">
+      Add Beer
+    </Link>
   </div>
 );
 
