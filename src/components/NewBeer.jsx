@@ -60,11 +60,19 @@ class NewBeer extends Component {
           onChange={this.handleOnChange}
         />
 
-        <input
+        <label>
+          Description:
+          <textarea
+            name="description"
+            value={this.state.description}
+            onChange={this.handleOnChange}
+          />
+        </label>
+        {/* <input
           name="description"
           placeholder="description"
           onChange={this.handleOnChange}
-        />
+        /> */}
 
         <input
           name="first_brewed"
